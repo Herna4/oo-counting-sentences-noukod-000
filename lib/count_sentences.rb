@@ -20,6 +20,6 @@ class String
   sentence.delete_if? do |e|
     e.empty?
   end
-   sentence.count
+   sentence.size
   end
 end
