@@ -3,6 +3,12 @@ require 'pry'
 class String
 
   def sentence?
+   self.end_with?(".")
+     #"Hi, my name is Sophie".end_with?(".")
+    # "What's your name?".end_with?("?")
+    # "Happy Halloween!".end_with?("?")
+    # "Hi, my name is Sophie!".end_with?("?")
+    # "Hi, my name is Sophie.".end_with?("?")
     
   end
 
